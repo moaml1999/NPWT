@@ -6,10 +6,15 @@ Negative pressure wound therapy (NPWT), also called vacuum-assisted wound closur
 
 # Hardware
 ## 1-	ESP32
-ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth. The ESP32 series employs either a Tensilica Xtensa LX6 microprocessor in both dual-core and single-core variations, Xtensa LX7 dual-core microprocessor or a single-core RISC-V microprocessor and includes built-in antenna switches, RF balun, power amplifier, low-noise receive amplifier, filters, and power-management modules. ESP32 is created and developed by Espressif Systems, a Shanghai-based Chinese company, and is manufactured by TSMC using their 40 nm process. It is a successor to the ESP8266 microcontroller.
-The board which I have has 30 Pins (15 pins on each side). There are some board with 36 Pins and some with slightly less Pins.
+<p>ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth. The ESP32 series employs either a Tensilica Xtensa LX6 microprocessor in both dual-core and single-core variations, Xtensa LX7 dual-core microprocessor or a single-core RISC-V microprocessor and includes built-in antenna switches, RF balun, power amplifier, low-noise receive amplifier, filters, and power-management modules. ESP32 is created and developed by Espressif Systems, a Shanghai-based Chinese company, and is manufactured by TSMC using their 40 nm process. It is a successor to the ESP8266 microcontroller.
+The board which I have has 30 Pins (15 pins on each side). There are some board with 36 Pins and some with slightly less Pins.</p>
  
-As you can see from Fig 1, the ESP32 Board consists of the following:
+ ![ESP32 Board consists](https://github.com/moaml1999/NPWT/blob/main/images/ESP32.jpg) 
+ 
+  
+<p> Fig 1 the ESP32 Board consists </p>
+<p> As you can see from Fig 1, the ESP32 Board consists of the following: </p>
+
 -	ESP-WROOM-32 Module
 -	Two rows of IO Pins (with 15 pins on each side)
 -	CP2012 USB – UART Bridge IC
@@ -21,7 +26,8 @@ As you can see from Fig 1, the ESP32 Board consists of the following:
 -	User LED (Blue – connected to GPIO2)
 -	Some passive components
 
-Features: 
+<p>Features: </p>
+
 -	Single or Dual-Core 32-bit LX6 Microprocessor with clock frequency up to 240 MHz.
 -	520 KB of SRAM, 448 KB of ROM and 16 KB of RTC SRAM.
 -	Supports 802.11 b/g/n Wi-Fi connectivity with speeds up to 150 Mbps.
@@ -35,21 +41,35 @@ Features:
 
 
 ## 2-	AS21 Pressure Sensor Module
-AS21 is a prefect silicon pressure sensor module offering a ratiometric analog interface for reading pressure over the specified full scale pressure span and temperance. The AS21 incorporates a silicon piezoresistive pressure sensor and an on-board Application Specific Integrated Circuit (ASIC) under PC board in a DIP6 package. The AS21 is fully calibrated and temperature compensated for offset, sensitivity, temperature and non-linearity,soAS21 pressure sensor module satisfy the prefect repeatability, linearity, stability and sensibility, which can be applied directly in medical equipment, fitness machine, home electronics, and other pneumatic devices etc. AS21 pressure sensor module is for high volume application at an affordable cost and perfect performance. Customized calibrations (working voltage, output voltage, and pressure range) are available.
- 
+<p> AS21 is a prefect silicon pressure sensor module offering a ratiometric analog interface for reading pressure over the specified full scale pressure span and temperance. The AS21 incorporates a silicon piezoresistive pressure sensor and an on-board Application Specific Integrated Circuit (ASIC) under PC board in a DIP6 package. The AS21 is fully calibrated and temperature compensated for offset, sensitivity, temperature and non-linearity,soAS21 pressure sensor module satisfy the prefect repeatability, linearity, stability and sensibility, which can be applied directly in medical equipment, fitness machine, home electronics, and other pneumatic devices etc. AS21 pressure sensor module is for high volume application at an affordable cost and perfect performance. Customized calibrations (working voltage, output voltage, and pressure range) are available.</P>
 
-Features:
+ ![Pressure Sensor Module](https://github.com/moaml1999/NPWT/blob/main/images/pressure%20sensor.jpg) 
+
+<p>  Fig 2 Pressure Sensor Module </p>
+
+
+<p> Features:</p>
+
 -	Ranges:-100kPa～0kPa…1500kPa(-15PSI～0PSI…225PSI) 
 -	Optional 5V or 3.3V or 3V power supply 
 -	Gage & Vacuum Type ■ For Non-corrosive gas or air 
 -	Calibrated Amplified Analog signal or Digital output 
 -	Temp. Compensated:0℃～+60℃(32℉～+140℉) 
 -	Direct application, Low Cost.
+ 
+![AS21 Pressure Sensor Module pins](https://github.com/moaml1999/NPWT/blob/main/images/pressure%20sensor%20pins.jpg) 
+
+<p> Fig 3 AS21 Pressure Sensor Module pins </p>
 
 ## 3-	Air Pump
 Mini electric vacuum pump with high air flow for good performance.Vacuum pump is made of premium aluminium and plastic, it is corrosion resistant and durable in use. Mini size design of pump, with inlet and outlet on its body. Electric air pump is easy to install, provide much convenience. Air pressure pump is widely used in air sampling, instruments and equipment and industry, home appliances and other fields.
 
-Features:
+![air pump](https://github.com/moaml1999/NPWT/blob/main/images/pump.jpg) 
+
+<p> Fig 4 air pump </p>
+
+<P> Features:</P>
+
 -	Delicate appearance, small size, long life.
 -	Low noise, high quality efficiency, zero crosstalk.
 -	High torque, high precision.
@@ -58,4 +78,8 @@ Features:
 -	Light weight, easy installation.
 
 ## 4-	 I2C LCD 16x2 screen display
-LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability and programmer friendly. Most of us would have come across these displays in our day-to-day life, either at PCO’s or calculators. The appearance and the pinouts have already been visualized above now let us get a bit technical. 16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like, 8×1, 8×2, 10×2, 16×1, etc. but the most used one is the 16×2 LCD. So, it will have (16×2=32) 32 characters in total and each character will be made of 5×8 Pixel Dots. 
+<p> LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability and programmer friendly. Most of us would have come across these displays in our day-to-day life, either at PCO’s or calculators. The appearance and the pinouts have already been visualized above now let us get a bit technical. 16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like, 8×1, 8×2, 10×2, 16×1, etc. but the most used one is the 16×2 LCD. So, it will have (16×2=32) 32 characters in total and each character will be made of 5×8 Pixel Dots. </p>
+
+![I2C LCD 16x2 screen](https://github.com/moaml1999/NPWT/blob/main/images/lcd%20i2c.jpg) 
+
+<p> Fig 5 I2C LCD 16x2 screen </p>
