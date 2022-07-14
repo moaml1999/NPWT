@@ -1,5 +1,14 @@
 # Negative pressure wound therapy (NPWT)
-<p class="text-justify"> Wound healing is a complex biological process consisting of hemostasis, inflammation, proliferation, and remodeling. Large numbers of cell types—including neutrophils, macrophages, lymphocytes, keratinocytes, fibroblasts, and endothelial cells—are involved in this process. Multiple factors can impair wound healing by affecting one or more stages of the process and are categorized into local and systemic factors. The effects of these factors are not mutually exclusive. Single or multiple factors may play a role in any one or more individual stages, contributing to the overall outcome of the healing process.
+
+## <p> Project layout </p> 
+1. [Introduction](https://github.com/moaml1999/NPWT/edit/main/README.md#overview) : <p> explanation of wound healing and the method of wound healing by negative pressure.</p>
+2. [Hardware](https://github.com/moaml1999/NPWT/edit/main/README.md#hardware) : <p> We are talking about the hardware parts we used in this project with a simple explanation of each part.</p>
+
+3. [Software](https://github.com/moaml1999/NPWT/edit/main/README.md#software) : <p>explained here the software program to write codes and platforms used to control the device that connect device with internet.</p>
+
+
+# Introduction
+<p> Wound healing is a complex biological process consisting of hemostasis, inflammation, proliferation, and remodeling. Large numbers of cell types including neutrophils, macrophages, lymphocytes, keratinocytes, fibroblasts, and endothelial cells are involved in this process. Multiple factors can impair wound healing by affecting one or more stages of the process and are categorized into local and systemic factors. The effects of these factors are not mutually exclusive. Single or multiple factors may play a role in any one or more individual stages, contributing to the overall outcome of the healing process.
 Negative pressure wound therapy (NPWT) is a method of drawing fluid and infection out of a wound to help it heal. A special dressing (bandage) is sealed over the wound and a gentle suction pump is attached.
 Negative pressure wound therapy (NPWT), also called vacuum-assisted wound closure, refers to wound dressing systems that continuously or intermittently apply subatmospheric pressure to the system, delivering positive pressure to the wound surface. NPWT has become a popular treatment modality for the management of many acute and chronic wounds. Subatmospheric pressure has multiple beneficial effects on wound healing in animal models. </p>
 
