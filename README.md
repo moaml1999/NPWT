@@ -1,10 +1,10 @@
 # Negative pressure wound therapy (NPWT)
 
 ## <p> Project layout </p> 
-1. [Introduction](https://github.com/moaml1999/NPWT/edit/main/README.md#overview) : <p> explanation of wound healing and the method of wound healing by negative pressure.</p>
-2. [Hardware](https://github.com/moaml1999/NPWT/edit/main/README.md#hardware) : <p> We are talking about the hardware parts we used in this project with a simple explanation of each part.</p>
+1. [Introduction](https://github.com/moaml1999/NPWT#introduction) : <p> explanation of wound healing and the method of wound healing by negative pressure.</p>
+2. [Hardware](https://github.com/moaml1999/NPWT#hardware) : <p> We are talking about the hardware parts we used in this project with a simple explanation of each part.</p>
 
-3. [Software](https://github.com/moaml1999/NPWT/edit/main/README.md#software) : <p>explained here the software program to write codes and platforms used to control the device that connect device with internet.</p>
+3. [Software](https://github.com/moaml1999/NPWT#software) : <p>explained here the software program to write codes and platforms used to control the device that connect device with internet.</p>
 
 
 # Introduction
