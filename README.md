@@ -83,3 +83,19 @@ Mini electric vacuum pump with high air flow for good performance.Vacuum pump is
 ![I2C LCD 16x2 screen](https://github.com/moaml1999/NPWT/blob/main/images/lcd_i2c.jpg) 
 
 <p> Fig 5 I2C LCD 16x2 screen </p>
+
+# Software 
+## 1-  Arduino IDE 
+<p> Arduino IDE is an open source software that is mainly used for writing and compiling the code into the Arduino Module. It is official Arduino software, making code compilation too easy that even a common person with no prior technical knowledge can get their feet wet with the learning process. It is easily available for operating systems like MAC, Windows, Linux and runs on the Java Platform that comes with inbuilt functions and commands that play a vital role for debugging, editing and compiling the code in the environment. A range of Arduino modules available including Arduino Uno, Arduino Mega, Arduino Leonardo, Arduino Micro and many more.  Each of them contains a microcontroller on the board that is actually programmed and accepts the information in the form of code. The main code, also known as a sketch, created on the IDE platform will ultimately generate a Hex File which is then transferred and uploaded in the controller on the board.  The IDE environment mainly contains two basic parts: Editor and Compiler where former is used for writing the required code and later is used for compiling and uploading the code into the given Arduino Module. This environment supports both C and C++ languages.</p> 
+
+## 2-  Blynk 
+<p> Blynk is an internet of things platform which allows controlling electronic devices remotely using its iOS and android apps. It provides dashboard by which user can create graphic interface using different widgets. Blynk can also store and display sensor data. Blynk provides libraries for most of the popular hardware platforms like Arduino, ESP8266 , Raspberry pi, SparkFun etc.
+In the Blynk three most important components are App, Server and Libraries. App can help to create the interface. Server is responsible for all the communication between app and the hardwires. And Libraries enables communication for hardware with the server using commands.</p>
+ 
+Getting Started With The Blynk App
+1. Create a Blynk Account
+2. Create a New Project
+3. Choose Your Hardware
+4. Auth Token
+5. Add a Widget
+6. Run the Project
