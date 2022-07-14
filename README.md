@@ -1,5 +1,5 @@
 # Negative pressure wound therapy (NPWT)
-<p> Wound healing is a complex biological process consisting of hemostasis, inflammation, proliferation, and remodeling. Large numbers of cell types—including neutrophils, macrophages, lymphocytes, keratinocytes, fibroblasts, and endothelial cells—are involved in this process. Multiple factors can impair wound healing by affecting one or more stages of the process and are categorized into local and systemic factors. The effects of these factors are not mutually exclusive. Single or multiple factors may play a role in any one or more individual stages, contributing to the overall outcome of the healing process.
+<p class="text-justify"> Wound healing is a complex biological process consisting of hemostasis, inflammation, proliferation, and remodeling. Large numbers of cell types—including neutrophils, macrophages, lymphocytes, keratinocytes, fibroblasts, and endothelial cells—are involved in this process. Multiple factors can impair wound healing by affecting one or more stages of the process and are categorized into local and systemic factors. The effects of these factors are not mutually exclusive. Single or multiple factors may play a role in any one or more individual stages, contributing to the overall outcome of the healing process.
 Negative pressure wound therapy (NPWT) is a method of drawing fluid and infection out of a wound to help it heal. A special dressing (bandage) is sealed over the wound and a gentle suction pump is attached.
 Negative pressure wound therapy (NPWT), also called vacuum-assisted wound closure, refers to wound dressing systems that continuously or intermittently apply subatmospheric pressure to the system, delivering positive pressure to the wound surface. NPWT has become a popular treatment modality for the management of many acute and chronic wounds. Subatmospheric pressure has multiple beneficial effects on wound healing in animal models. </p>
 
@@ -10,9 +10,9 @@ Negative pressure wound therapy (NPWT), also called vacuum-assisted wound closur
 The board which I have has 30 Pins (15 pins on each side). There are some board with 36 Pins and some with slightly less Pins.</p>
  
  ![ESP32 Board consists](https://github.com/moaml1999/NPWT/blob/main/images/ESP32.jpg) 
- 
-  
+   
 <p> Fig 1 the ESP32 Board consists </p>
+
 <p> As you can see from Fig 1, the ESP32 Board consists of the following: </p>
 
 -	ESP-WROOM-32 Module
@@ -78,7 +78,7 @@ Mini electric vacuum pump with high air flow for good performance.Vacuum pump is
 -	Light weight, easy installation.
 
 ## 4-	 I2C LCD 16x2 screen display
-<p> LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability and programmer friendly. Most of us would have come across these displays in our day-to-day life, either at PCO’s or calculators. The appearance and the pinouts have already been visualized above now let us get a bit technical. 16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like, 8×1, 8×2, 10×2, 16×1, etc. but the most used one is the 16×2 LCD. So, it will have (16×2=32) 32 characters in total and each character will be made of 5×8 Pixel Dots. </p>
+<p class="text-justify" > LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability and programmer friendly. Most of us would have come across these displays in our day-to-day life, either at PCO’s or calculators. The appearance and the pinouts have already been visualized above now let us get a bit technical. 16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like, 8×1, 8×2, 10×2, 16×1, etc. but the most used one is the 16×2 LCD. So, it will have (16×2=32) 32 characters in total and each character will be made of 5×8 Pixel Dots. </p>
 
 ![I2C LCD 16x2 screen](https://github.com/moaml1999/NPWT/blob/main/images/lcd%20i2c.jpg) 
 
