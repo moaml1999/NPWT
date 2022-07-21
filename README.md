@@ -49,7 +49,8 @@ The board which I have has 30 Pins (15 pins on each side). There are some board 
 
 
 ## 2-	AS21 Pressure Sensor Module
-<p> AS21 is a prefect silicon pressure sensor module offering a ratiometric analog interface for reading pressure over the specified full scale pressure span and temperance. The AS21 incorporates a silicon piezoresistive pressure sensor and an on-board Application Specific Integrated Circuit (ASIC) under PC board in a DIP6 package. The AS21 is fully calibrated and temperature compensated for offset, sensitivity, temperature and non-linearity,soAS21 pressure sensor module satisfy the prefect repeatability, linearity, stability and sensibility, which can be applied directly in medical equipment, fitness machine, home electronics, and other pneumatic devices etc. AS21 pressure sensor module is for high volume application at an affordable cost and perfect performance. Customized calibrations (working voltage, output voltage, and pressure range) are available.</P>
+<p> Pressure is defined as an evenly distributed force acting over a surface with a given area. The accurate measurement of pressure is essential for applications ranging from material testing to weighing scales, aircraft altitude prediction, and evaluating biological functions in humans relating to respiration and blood flow.
+Pressure sensors function under a variety of different physical principles that include: fluid density and gravity, piezoelectricity, piezoresistivity, electrical capacitance, and electrical resistivity. </P>
 
  ![Pressure Sensor Module](https://github.com/moaml1999/NPWT/blob/main/images/pressure_sensor.jpg) 
 
