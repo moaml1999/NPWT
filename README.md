@@ -6,8 +6,9 @@
 Negative pressure wound therapy (NPWT) is a method of drawing fluid and infection out of a wound to help it heal. A special dressing (bandage) is sealed over the wound and a gentle suction pump is attached.
 Negative pressure wound therapy (NPWT), also called vacuum-assisted wound closure, refers to wound dressing systems that continuously or intermittently apply subatmospheric pressure to the system, delivering positive pressure to the wound surface. NPWT has become a popular treatment modality for the management of many acute and chronic wounds. Subatmospheric pressure has multiple beneficial effects on wound healing in animal models. </p>
 
+# Things used in this project
 
-# Hardware
+## Hardware
 ### 1-	ESP32
 ### 2-	AS21 Pressure Sensor Module
 ### 3-	Air Pump
@@ -15,7 +16,7 @@ Negative pressure wound therapy (NPWT), also called vacuum-assisted wound closur
 ### 5- Jumper wires
 ### 6- Type-C USB 5V 2A 1S Single string lithium battery charge discharge module
 
-# Software 
+## Software 
 ### 1-  Arduino IDE 
 ### 2-  Blynk 
 
@@ -40,6 +41,3 @@ This schema diagram show principle work the NPWT.
 
 ![Block connection](https://github.com/moaml1999/NPWT/blob/main/block_connection.jpg) 
 
-
-# code
-this [The code](https://github.com/moaml1999/NPWT/blob/main/wound_healing_esp32/wound_healing_esp32.ino).
